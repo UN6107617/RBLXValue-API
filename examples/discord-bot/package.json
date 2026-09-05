@@ -1,0 +1,14 @@
+{
+  "name": "rblxvalue-mm2-discord-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MM2 value Discord bot using the RBLXValue API v2 (slash commands)",
+  "main": "bot.js",
+  "type": "commonjs",
+  "engines": { "node": ">=20" },
+  "scripts": { "start": "node bot.js" },
+  "dependencies": {
+    "discord.js": "^14.16.0",
+    "dotenv": "^16.4.0"
+  }
+}
